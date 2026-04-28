@@ -1,0 +1,38 @@
+{
+  "name": "joai-telegram",
+  "version": "0.3.0",
+  "description": "Connect Telegram to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/telegram",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "telegram"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Telegram by JoAi",
+    "shortDescription": "Connect Telegram to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+    "longDescription": "Connect your Telegram bot to send and receive messages.",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/telegram",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "List the Telegram tools available in this app.",
+      "Explain what setup or authentication Telegram needs before I run an action.",
+      "Use Telegram to help me with the task I describe next."
+    ]
+  }
+}
